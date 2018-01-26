@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pramudana.sam.androidwidget.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Android Widget"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Alert Dialog" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Prompt alert Dialog" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Custom Alert Dialog" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="List View" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="239dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Grid View" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SPINNER" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Date Picker" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Time Picker" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Analog And Digital" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
